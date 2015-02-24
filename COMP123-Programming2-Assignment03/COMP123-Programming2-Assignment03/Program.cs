@@ -4,7 +4,7 @@
  * Program description:COMP123_Assignment03,Abstract Planets Class.
  * Revision	History:
  * 1.Finished Abstract Class Planet.
- * 2.
+ * 2.Finished subClass GiantPlanet.
  * 3.
  */
 using System;
