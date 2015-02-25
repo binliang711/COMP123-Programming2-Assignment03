@@ -8,40 +8,25 @@ namespace COMP123_Programming2_Assignment03
 {
     class GiantPlanet : Planet , IHasMoons , IHasRings
     {
-        // private instance variables ++++++++++++++++++++++++++++++++++++
+        // private instance variables ++++++++++++++++++++++++++++++++++++++++++++++++
         private string _type;
 
-        // constructors
+        // constructors+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public GiantPlanet(string name, double diameter, double mass, string type)
             : base(name, diameter, mass)
         {
             this._type = type;
         }
 
-        // public methods +++++++++++++++++++++++++++++++++
+        // Interface methods +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public bool HasMoons()
         {
-            if (MoonCount > 0)
-            { 
-                return true; 
-            }
-            else
-            {
-                return false; 
-            }
-            
+            return (MoonCount > 0) ? true : false;  
         }
 
         public bool HasRings()
         {
-            if (RingCount > 0)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return (RingCount > 0) ? true : false;  
         }
     }
 }

@@ -97,7 +97,7 @@ namespace COMP123_Programming2_Assignment03
             this._mass = mass;
         }
 
-        //Override method
+        //Override method+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public override string ToString()
         {
             return this.Name + "'s diameter and mass are:" + this.Diameter + " and " + this.Mass;

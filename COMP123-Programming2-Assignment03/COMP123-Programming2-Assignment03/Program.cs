@@ -7,6 +7,7 @@
  * 2.Finished subClass GiantPlanet.
  * 3.Add TerrestrialPlanet class and three Interfaces
  * 4.Debugging successfully and completing check with "ClassDiagram".
+ * 5.Improve interface method codes and comments
  */
 using System;
 using System.Collections.Generic;
