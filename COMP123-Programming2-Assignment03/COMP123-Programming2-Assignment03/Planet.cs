@@ -100,7 +100,7 @@ namespace COMP123_Programming2_Assignment03
         //Override method
         public override string ToString()
         {
-            return this.Name + this.Diameter + this.Mass;
+            return this.Name + "'s diameter and mass are:" + this.Diameter + " and " + this.Mass;
         }
     }
 }

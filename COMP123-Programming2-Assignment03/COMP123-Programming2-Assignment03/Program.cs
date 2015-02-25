@@ -5,7 +5,8 @@
  * Revision	History:
  * 1.Finished Abstract Class Planet.
  * 2.Finished subClass GiantPlanet.
- * 3.
+ * 3.Add TerrestrialPlanet class and three Interfaces
+ * 4.Debugging successfully and completing check with "ClassDiagram".
  */
 using System;
 using System.Collections.Generic;
@@ -19,10 +20,10 @@ namespace COMP123_Programming2_Assignment03
     {
         static void Main(string[] args)
         {
-            GiantPlanet myGiantPlanet = new GiantPlanet("Fire", 10.0, 2000.0, "Gas");
+            GiantPlanet myGiantPlanet = new GiantPlanet("Fire", 100.0, 200.0, "Gas");
             Console.WriteLine(myGiantPlanet.ToString());
 
-            TerrestrialPlanet myTerrestrialPlanet = new TerrestrialPlanet("Sun", 10.0, 2000.0, true);
+            TerrestrialPlanet myTerrestrialPlanet = new TerrestrialPlanet("Sun", 1000000.0, 2000000.0, true);
             Console.WriteLine(myTerrestrialPlanet.ToString());
 
             waitForAnyKey();
