@@ -19,6 +19,21 @@ namespace COMP123_Programming2_Assignment03
     {
         static void Main(string[] args)
         {
+            GiantPlanet myGiantPlanet = new GiantPlanet("Fire", 10.0, 2000.0, "Gas");
+            Console.WriteLine(myGiantPlanet.ToString());
+
+            TerrestrialPlanet myTerrestrialPlanet = new TerrestrialPlanet("Sun", 10.0, 2000.0, true);
+            Console.WriteLine(myTerrestrialPlanet.ToString());
+
+            waitForAnyKey();
+        }
+
+        private static void waitForAnyKey()
+        {
+            Console.Write("\n");
+            Console.WriteLine("++++++++++++++++++++++++++++++");
+            Console.WriteLine("Please hit any key to exit....");
+            Console.ReadKey();
         }
     }
 }
